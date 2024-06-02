@@ -92,7 +92,7 @@ export default function Page() {
 
             <section>
                 <h2 className="mb-4 text-2xl font-bold sm:text-3xl">
-                    Original vs. optimized image: can you tell the difference?
+                    Original vs. optimized image: can you tell the difference and how long does it take you?
                 </h2>
                 <Markdown content={originalVsCdnSnippet} />
                 <div className="diff aspect-[3/2] rounded-lg border-2 border-white mt-8">
